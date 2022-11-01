@@ -24,7 +24,6 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.sales = require("../models/sales.js")(sequelize, Sequelize);
 // db.sequelize.sync({force: true}).then(() => {
 //     console.log('Drop and Resync Db');
 //   });
